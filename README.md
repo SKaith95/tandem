@@ -27,7 +27,7 @@ Deux IA dans **une seule fenêtre**, qui se parlent, se passent leurs fichiers<b
 
 <br/><br/>
 
-[Aperçu](#-aperçu) · [En bref](#-en-bref) · [Démarrer](#-démarrer-en-3-étapes) · [À plusieurs](#-travailler-à-plusieurs) · [Synchro](#-synchroniser-tes-pc) · [Nouveautés](https://github.com/SKaith95/tandem/releases)
+[Aperçu](#-aperçu) · [En bref](#-en-bref) · [Démarrer](#-démarrer-en-3-étapes) · [Fonctions](#-ce-que-tu-peux-faire) · [Exemples](#-exemples) · [Aide](#-aide) · [Nouveautés](https://github.com/SKaith95/tandem/releases)
 
 <br/>
 
@@ -122,27 +122,125 @@ Claude garde sa session, les vieux messages sont résumés : environ **3 fois mo
 
 <br/>
 
-## 👥 Travailler à plusieurs
+## 🧭 Ce que tu peux faire
 
-- **Partager un projet** : menu du jeu › **« Partager ce jeu en équipe »**, puis **« Inviter un ami (lien) »**.
-- **Rejoindre** : ton ami ouvre le lien, installe Tandem en un clic et rejoint l'équipe. Il n'a besoin **ni de Google Drive ni de Tailscale**.
-- **Pas de conflits** : chaque IA réserve ce qu'elle modifie (un script, une interface, une partie de la map) avant d'y toucher.
-- **Tout est visible** : panneau Activité › **Équipe** montre qui est là, les zones réservées, le journal de qui a fait quoi et les règles communes.
-- **Une mémoire commune** : la mémoire d'un projet en équipe est partagée par tout le monde.
+<table>
+<tr>
+<td width="50%"><img src="./assets/activite.svg" width="100%" alt="Panneau Activité" /></td>
+<td width="50%" valign="middle">
+
+### Tout voir pendant que ça travaille
+
+- **Claude en ce moment** : la tâche en cours et l'action qu'il fait à l'instant, avec l'agent qui la fait.
+- **Agents** : ceux qui travaillent, leur mission, ce qu'ils font, et quand ils ont fini.
+- **Tâches et plan** : la liste de Claude et le plan de ChatGPT, avec leur avancement (3/5…).
+- **Pastille orange** sur le bouton Activité : combien d'agents sont au travail.
+- **Pas de coupure** : la session reste ouverte jusqu'à ce que **tous** les agents aient fini.
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="50%" valign="middle">
+
+### Le bon modèle pour chaque tâche
+
+- **Touche le badge** en haut d'une colonne pour changer de modèle.
+- **Claude** : Opus, Sonnet ou Haiku.
+- **ChatGPT** : GPT-5.5, GPT-5 ou GPT-5 mini.
+- **Skills** : Roblox Studio, animations, Blender et contrôle du PC ne sont chargés **que quand Claude en a besoin**.
+
+</td>
+<td width="50%"><img src="./assets/modeles.svg" width="100%" alt="Choix des modèles" /></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="50%"><img src="./assets/equipe.svg" width="100%" alt="Panneau Équipe" /></td>
+<td width="50%" valign="middle">
+
+### Une équipe, sans conflits
+
+- **Partage un projet** : menu du jeu › **« Partager ce jeu en équipe »**.
+- **Réservations** : chaque IA réserve ce qu'elle modifie (un script, une interface, une partie de la map). **Personne n'écrase le travail d'un autre.**
+- **Panneau Équipe** : qui est là, les zones réservées, le journal de qui a fait quoi, et les règles communes (modifiables).
+- **Mémoire commune** : tout le monde partage la mémoire du projet.
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="50%" valign="middle">
+
+### Inviter en un lien
+
+- Menu du jeu › **« Inviter un ami (lien) »**.
+- Ton ami ouvre le lien, **installe Tandem en un clic** et rejoint l'équipe.
+- Il n'a besoin **ni de Google Drive ni de Tailscale** : ton Tandem héberge l'équipe, en temps réel.
+- Seule la partie « équipe » est ouverte sur internet, protégée par le **code d'invitation**.
+
+</td>
+<td width="50%"><img src="./assets/invitation.svg" width="100%" alt="Inviter un ami" /></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="50%"><img src="./assets/synchro.svg" width="100%" alt="Synchronisation entre PC" /></td>
+<td width="50%" valign="middle">
+
+### Tes PC, toujours à jour
+
+- Réglages › Compte Google › **« Synchroniser entre mes PC »**, sur chaque PC.
+- Conversations, fichiers, captures et jeux passent par un dossier **privé** de ton Drive, séparé de celui de tes amis.
+- Tu retrouves tout, **même si l'autre PC est éteint**.
+- Modifiée sur deux PC ? Tandem **garde les messages des deux**.
+
+</td>
+</tr>
+</table>
+
+<p align="center"><sub>Les écrans ci-dessus sont des illustrations de l'interface.</sub></p>
 
 > [!IMPORTANT]
-> Seule la partie « équipe » passe par internet, protégée par le code d'invitation. **Tes conversations et ton PC restent privés.**
+> **Tes conversations et ton PC restent privés.** Seule la partie « équipe » passe par internet, et seulement si tu partages un projet.
 
 <br/>
 
-## 🔄 Synchroniser tes PC
+## 💡 Exemples
 
-Réglages › Compte Google › **« Synchroniser entre mes PC »**, à activer sur chaque PC.
+| Tu demandes… | Claude | ChatGPT |
+|---|---|---|
+| *« Crée la page d'accueil de mon app »* | Code la page, le formulaire, les tests | Écrit les textes, génère la bannière |
+| *« Ajoute une boutique à mon jeu Roblox »* | Scripte la boutique dans Roblox Studio | Dessine les icônes des objets |
+| *« Anime mon personnage »* | Prépare l'animation (Blender, Roblox) | Propose les poses et les références |
 
-- Conversations, fichiers, captures et jeux passent par un dossier **privé** de ton Drive (`Tandem - synchro`), séparé du dossier partagé avec tes amis.
-- Tu retrouves tout, **même si l'autre PC est éteint**.
-- Une conversation modifiée sur deux PC **garde les messages des deux**. Une conversation supprimée sur un PC l'est partout.
-- Une conversation en cours n'est envoyée qu'une fois la réponse finie.
+<br/>
+
+## ❓ Aide
+
+<details>
+<summary><b>Windows affiche « Windows a protégé votre ordinateur »</b></summary>
+<br/>
+Clique sur <b>Informations complémentaires</b>, puis <b>Exécuter quand même</b>.
+</details>
+
+<details>
+<summary><b>Comment mettre à jour Tandem ?</b></summary>
+<br/>
+Rien à faire : Tandem télécharge la nouvelle version en arrière-plan, puis te propose <b>« Mettre à jour »</b>.
+</details>
+
+<details>
+<summary><b>Où voir les nouveautés ?</b></summary>
+<br/>
+Chaque version est détaillée dans les <a href="https://github.com/SKaith95/tandem/releases">Releases</a>.
+</details>
 
 <br/>
 
